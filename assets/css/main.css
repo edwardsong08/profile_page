@@ -2055,14 +2055,13 @@ Teaching and guiding students has been an incredibly rewarding experience which 
 						position: absolute;
 						top: 0;
 						left: 0;
-						width: auto;
+						width: 100%;
 						height: 100%;
 						padding: 10%;
-						margin-right:;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
-						object-fit: cover;
+						object-fit:contain;
 						-moz-object-position: center;
 						-webkit-object-position: center;
 						-ms-object-position: center;
