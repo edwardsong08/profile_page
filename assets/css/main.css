@@ -1300,11 +1300,12 @@ align-items: stretch;
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/night_background.jpg");
+		background-image: url("images/overlay.png"), url("images/mountain_retreat.jpg");
 		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-size:auto, cover;
+		min-width: 1000px, 1000px;
 		background-attachment: fixed;
-		overflow-y: scroll;
+		overflow-y:scroll;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1803,10 +1804,22 @@ Teaching and guiding students has been an incredibly rewarding experience which 
 		cursor: default;
 	}
 
+	#nav > #home_button {
+		color: #da2323;
+	}
+	#nav > #project_button {
+		color: #e1e11e;
+	}
+	#skill_button {
+		color: #233fda;
+	}
+	#me_button {
+		color: #0d921c;
+	}
+
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1975,7 +1988,7 @@ Teaching and guiding students has been an incredibly rewarding experience which 
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: rgba(39, 39, 39, 0.575);
+		background: rgba(39, 39, 39, 0.838);
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
