@@ -1302,7 +1302,7 @@ align-items: stretch;
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/top_of_desk.jpg");
+		background-image: url("images/overlay.png"), url("images/snow_mountain.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size:auto, cover;
 		min-width: 1000px, 1000px;
@@ -1814,7 +1814,7 @@ Teaching and guiding students has been an incredibly rewarding experience which 
 		color: #ffee00;
 	}
 	#skill_button {
-		color: #4892fa;
+		color: #66c2fb;
 	}
 	#me_button {
 		color: #1ddb33;
