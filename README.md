@@ -8,6 +8,7 @@ Contents:
   Github: www.github.com/edwardsong08
 
   Projects: (Coming soon)
+  
   Skill sets: (Coming soon)
 
   About Me: 
